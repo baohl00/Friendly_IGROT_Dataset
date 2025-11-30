@@ -1,5 +1,7 @@
 # FIGROTD: A Friendly-to-Handle Dataset for Image Guided Retrieval with Optional Text 
 
+_Accepted at MMM2026._
+
 ## Abstract
 
 Image-Guided Retrieval with Optional Text (IGROT) unifies visual retrieval (without text) and composed retrieval (with text). Despite its relevance in applications like Google Image and Bing, progress has been limited by the lack of an accessible benchmark and methods that balance performance across subtasks. Large-scale datasets such as MagicLens are comprehensive but computationally prohibitive, while existing models often favor either visual or compositional queries. We introduce **FIGROTD**, a lightweight yet high-quality IGROT dataset with 16,474 training triplets and 1,262 test triplets across CIR, SBIR, and CSTBIR. To reduce redundancy, we propose the **Variance Guided Feature Mask (VaGFeM)**, which selectively enhances discriminative dimensions based on variance statistics. We further adopt a dual-loss design (InfoNCE + Triplet) to improve compositional reasoning. Trained on FIGROTD, VaGFeM achieves competitive results on nine benchmarks, reaching 34.8 mAP@10 on CIRCO and 75.7 mAP@200 on Sketchy, outperforming stronger baselines despite fewer triplets.
