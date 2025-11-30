@@ -1,0 +1,20 @@
+# Exclude specific files and folders
+ckpt/
+wandb/
+submission/
+torchelastic_qmqhhrhv/
+*.log
+*.tmp
+data/laion_chatgpt_16k
+data/laion_cir_combined
+data/laion_cir_template
+*.pth
+*.zip
+*.bin
+results.txt
+*.ipynb
+sim_decompose.py
+model_combine.py
+model_fuse.py
+encode_with_pseudo_tokens.py
+results.txt
