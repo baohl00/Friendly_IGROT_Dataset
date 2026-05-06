@@ -39,7 +39,29 @@ bash scripts/train.sh
 Add citation details here, usually a pastable BibTeX snippet:
 
 ```latex
-
+@InProceedings{le2026figrotd,
+author="Le, Hoang-Bao
+and Tran, Allie
+and Nguyen, Binh T.
+and Zhou, Liting
+and Gurrin, Cathal",
+editor="Loko{\v{c}}, Jakub
+and Pe{\v{s}}ka, Ladislav
+and Zah{\'a}lka, Jan
+and Rudinac, Stevan
+and Kastner, Marc
+and Chen, Jingjing
+and Hu, Min-Chun
+and Wu, Jiaxin
+and Sharma, Ujjwal",
+title="FIGROTD: A Friendly-to-Handle Dataset for Image Guided Retrieval with Optional Text",
+booktitle="MultiMedia Modeling",
+year="2026",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="117--132",
+isbn="978-981-95-6950-2"
+}
 ```
 
 ## Acknowledgement 
